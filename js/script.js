@@ -72,7 +72,7 @@ const governorates =[
 getPreyerTiminigOfCity("Al Qāhirah");
 let timerPlace = document.getElementsByClassName("timer");
 function getPreyerTiminigOfCity(cityName){
-  let url="http://api.aladhan.com/v1/timingsByCity?city="+cityName+"&country=EG&method=3"
+  let url="https://api.aladhan.com/v1/timingsByCity?city="+cityName+"&country=EG&method=3"
   fetch(url)
   .then((response) => response.json())
   .then((json) => {
