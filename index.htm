@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Poppins:ital,wght@0,300;0,400;0,700;1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+</head>
+<body class="text-capitalize d-flex flex-column align-items-around justify-content-center">
+    <div class="container   d-flex flex-column align-items-around justify-content-center bg-light p-2" style="width:90% !important;border-radius: 15px !important;">
+        
+        <div class="p-2 pt-5 d-flex flex-row  justify-content-between bg-light">
+            <div class="m-0 p-0">
+                <h3>prayers time in <span style="color: #1ba78b;">Egypt</span></h3>
+                <select  id="cities" class="w-50 text-center "style="color: #1ba78b;">
+                </select>
+            </div>
+            <div class="m-0">
+                <p class="m-0 gregorian">8,septemper,2023</p>
+                <p class="m-0 text-end hijri"style="font-weight: 550;" >8,safar,1445</p>
+            </div>
+        </div>
+        <div class="contanier  w-100  d-flex felx-row flex-wrap gap-4 align-items-start flex-shrink-0 justify-content-around bg-light p-5" >
+            <div class="azan azan-fajr p-2 rounded text-center col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1  m-0  f-p">fajr</p>
+                <p class="timer "  style="letter-spacing: 3px;margin:0; "></p>
+                <p class="p-1 m-0  fajr-time">04:02 AM</p>
+            </div>
+            <div class="azan azan-sunrize p-2 rounded text-center  col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1 m-0 s-p">sunrise</p>
+                <p class="timer" class="m-0" style="letter-spacing: 3px;margin:0;   "></p>
+                <p class="p-1 m-0 sunrize-time">04:02 AM</p>
+            </div>
+            <div class="azan azan-duhr p-2 rounded text-center  col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1 m-0 d-p">dhuhr</p>
+                <p class="timer" class="m-0" style="letter-spacing: 3px;margin:0;   "></p>
+                <p class="p-1 m-0 duhr-time">04:02 AM</p>
+            </div>
+            <div class="azan azan-asr p-2 rounded text-center mt-md-5 mt-lg-0    col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1 m-0 a-p">asr</p>
+                <p class="timer" style="letter-spacing: 3px;margin:0;  "></p>
+                <p class="p-1 m-0 asr-time">04:02 AM</p>
+            </div>
+            <div class="azan azan-maghrib p-2 rounded text-center mt-md-5 mt-lg-0    col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1 m-0 m-p" >maghrib</p>
+                <p class="timer"  style="letter-spacing: 3px;margin:0;  "></p>
+                <p class="p-1 m-0 maghrib-time">04:02 AM</p>
+            </div>
+            <div class="azan azan-isha p-2 rounded text-center mt-md-5 mt-lg-0   col-xs-12 col-md-5 col-lg-2 d-flex flex-column justify-content-center" >
+                <p class="p-1 m-0 i-p">isha</p>
+                <p class="timer"  style="letter-spacing: 3px;margin:0;  "></p>
+                <p class="p-1 m-0 isha-time">04:02 AM</p>
+            </div>
+        </div>
+        <div class="p-4 bg-light ">
+            <p class="m-0  ">Egyptian General Authority of Survey</p>
+            <p class="m-0 text-muted" style="font-size: 12px;">Fajr 19.5 degrees, Isha 17.5 degrees</p>
+        </div>
+    </div><!-- /container -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

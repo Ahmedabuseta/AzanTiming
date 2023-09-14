@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', sans-serif !;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #e5e5e5 !important;
+    height: 100vh;
+}
+.azan{
+    background-color: #e5e5e5 !important;
+    width: 145px !important;
+    line-height: 20px;
+    height: 105px;
+}.azan>p{
+    font-weight: 600 !important;
+}
+.fajr{
+    background-image: url(../img/fajr.png);
+    background-size: cover;
+    background-position: center;
+}
+.sunrise{
+    background-image: url(../img/sunrise.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: ;
+}
+.duhr{
+    background-image: url(../img/dhuhr.png);
+    background-size: cover;
+    background-position: center;
+}
+.asr{
+    background-image: url(../img/asr.png);
+    background-size: cover;
+    background-position: center;
+}
+.maghrib{
+    background-image: url(../img/maghrib.png) !important;
+    background-size: cover;
+    background-position: center;
+}
+.active{
+    line-height: 20px;
+    transform: scaleX(1.6) scaleY(1.7);
+    font-size: 12px !important;
+}
+
+.isha{
+    background-image: url(../img/isha.png);
+    background-size: cover;
+    background-position: center;
+    
+}
